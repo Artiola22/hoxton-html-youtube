@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <aside class="side-bar">
-      <div class="side-bar__top">
+    <header>
+      <div class="side-bar">
         <a href="#"
           ><img src="./assets/menu-top-logo.svg" alt="" width="30"
         /></a>
@@ -17,19 +17,16 @@
           ><img src="./assets/youtube-logo.svg" alt="" width="100"
         /></a>
       </div>
-      <div class="side-bar__menu"></div>
-    </aside>
 
-    <header>
-      <nav class="top-bar">
+      <div class="top-bar">
         <div class="top-bar__search">
-          <input class="search-area" type="text" placeholder="Search" />
+          <input type="search" placeholder="Search" />
           <button type="submit">Search</button>
           <button>
             <img src="./assets/microphone-icon.svg.svg" alt="" width="20" />
           </button>
         </div>
-        <div class="top-bar__menu">
+        <div class="top-settings">
           <button>
             <img src="./assets/upload-video.svg" alt="" width="30" />
           </button>
@@ -43,7 +40,46 @@
             <img src="./assets/profile-icon.png" alt="" width="30" />
           </button>
         </div>
-      </nav>
+      </div>
+    </header>
+
+    <main>
+      <aside class="menu">
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="./assets/home-icon.svg" alt="" width="30" />Home</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="./assets/explore-icon.svg"
+                alt=""
+                width="30"
+              />Explore</a
+            >
+          </li>
+          <li class="subsriptions-logo">
+            <a href="#"
+              ><img
+                src="./assets/subscriptions-logo.svg"
+                alt=""
+                width="30"
+              />Subscriptions</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="./assets/library-icon.svg"
+                alt=""
+                width="30"
+              />Library</a
+            >
+          </li>
+        </ul>
+      </aside>
       <div class="topics">
         <ul>
           <li><button>All</button></li>
@@ -69,54 +105,80 @@
           <li><button>Recently uploaded</button></li>
         </ul>
       </div>
-    </header>
-    <main>
-      <section class="left-side">
-        <div class="sidebar-top">
-          <ul>
-            <li>
-              <a href="#"
-                ><img src="./assets/home-icon.svg" alt="" width="30" />Home</a
-              >
-            </li>
-            <li>
-              <a href="#"
-                ><img
-                  src="./assets/explore-icon.svg"
-                  alt=""
-                  width="30"
-                />Explore</a
-              >
-            </li>
-            <li class="subsriptions-logo">
-              <a href="#"
-                ><img
-                  src="./assets/subscriptions-logo.svg"
-                  alt=""
-                  width="30"
-                />Subscriptions</a
-              >
-            </li>
-            <li>
-              <a href="#"
-                ><img
-                  src="./assets/library-icon.svg"
-                  alt=""
-                  width="30"
-                />Library</a
-              >
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="right-side">
-        <div>
-          <!-- <h1>Videos!</h1>
-          <h1>Videos!</h1>
-          <h1>Videos!</h1>
-          <h1>Videos!</h1>
-          <h1>Videos!</h1> -->
-        </div>
+
+      <section class="content">
+        <a class="video-1">
+          <div class="video__thumbnail"></div>
+          <div class="video__info">
+            <div class="video__avatar">
+              <img
+                src="https://yt3.ggpht.com/ytc/AKedOLQbiA72L0wQLT5F8nYNWlkyemLK_UYDHgLlpewXUQ=s88-c-k-c0x00ffffff-no-rj-mo"
+                alt=""
+                width="80"
+              />
+            </div>
+            <div class="video__more-info">
+              <h2 class="title">Aya Nakarume-Djadja (Clip officiel)</h2>
+              <div class="video-info"></div>
+              <h3 class="youtube-account">Aya Nakamura</h3>
+              <p class="views">815M ⋅ 3 years ago</p>
+            </div>
+          </div>
+        </a>
+        <a class="video-1">
+          <div class="video__thumbnail"></div>
+          <div class="video__info">
+            <div class="video__avatar">
+              <img
+                src="https://yt3.ggpht.com/ytc/AKedOLQbiA72L0wQLT5F8nYNWlkyemLK_UYDHgLlpewXUQ=s88-c-k-c0x00ffffff-no-rj-mo"
+                alt=""
+                width="80"
+              />
+            </div>
+            <div class="video__more-info">
+              <h2 class="title">Aya Nakarume-Djadja (Clip officiel)</h2>
+              <div class="video-info"></div>
+              <h3 class="youtube-account">Aya Nakamura</h3>
+              <p class="views">815M ⋅ 3 years ago</p>
+            </div>
+          </div>
+        </a>
+        <a class="video-1">
+          <div class="video__thumbnail"></div>
+          <div class="video__info">
+            <div class="video__avatar">
+              <img
+                src="https://yt3.ggpht.com/ytc/AKedOLQbiA72L0wQLT5F8nYNWlkyemLK_UYDHgLlpewXUQ=s88-c-k-c0x00ffffff-no-rj-mo"
+                alt=""
+                width="80"
+              />
+            </div>
+            <div class="video__more-info">
+              <h2 class="title">Aya Nakarume-Djadja (Clip officiel)</h2>
+              <div class="video-info"></div>
+              <h3 class="youtube-account">Aya Nakamura</h3>
+              <p class="views">815M ⋅ 3 years ago</p>
+            </div>
+          </div>
+        </a>
+        <a class="video-1">
+          <div class="video__thumbnail"></div>
+          <div class="video__info">
+            <div class="video__avatar">
+              <img
+                src="https://yt3.ggpht.com/ytc/AKedOLQbiA72L0wQLT5F8nYNWlkyemLK_UYDHgLlpewXUQ=s88-c-k-c0x00ffffff-no-rj-mo"
+                alt=""
+                width="80"
+              />
+            </div>
+            <div class="video__more-info">
+              <h2 class="title">Aya Nakarume-Djadja (Clip officiel)</h2>
+              <div class="video-info"></div>
+              <h3 class="youtube-account">Aya Nakamura</h3>
+              <p class="views">815M ⋅ 3 years ago</p>
+            </div>
+          </div>
+        </a>
       </section>
     </main>
   </body>
